@@ -1,0 +1,40 @@
+.button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+
+.filters {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 4px;
+}
+
+.filters__item {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}

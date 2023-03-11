@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    max-height: 2200px;
+    gap: 20px;
+}
+
+.list__item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 33.33%;
+}
+
+.list__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
